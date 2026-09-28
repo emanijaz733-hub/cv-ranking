@@ -1,0 +1,30 @@
+# secrets
+.env
+.env.production
+.env.local
+firebase-key*
+*.pem
+
+# real data
+data/
+storage/
+uploads/
+outputs/
+*.db
+
+# python
+.venv/
+venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+
+# frontend
+node_modules/
+dist/
+.vite/
+web/
+
+# IDE
+.idea/
+.vscode/
